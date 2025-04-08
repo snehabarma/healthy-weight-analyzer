@@ -1,50 +1,32 @@
-# Welcome to your Expo app 👋
+# Healthy Weight Analyzer 🩺
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A mobile app built with **React Native** (Expo) to help **doctors** quickly calculate a patient's **BMI** and identify a **healthy weight range** based on height and weight inputs.
 
-## Get started
+## 📱 Features
 
-1. Install dependencies
+- ✅ Input weight in **lb or kg** with automatic conversion
+- ✅ Input height in **feet/inches**
+- ✅ **Real-time BMI calculation**
+- ✅ Shows **minimum and maximum healthy weight** based on standard BMI range (18.5 – 24.9)
+- ✅ Clean, easy-to-use UI optimized for clinical use
+- 🚀 Coming soon: **Visual BMI trends with charts**
 
-   ```bash
-   npm install
-   ```
+## 🧠 BMI Formula Used
+\[
+\text{BMI} = \frac{\text{Weight (kg)}}{(\text{Height (m)})^2}
+\]
 
-2. Start the app
+## 💻 Tech Stack
 
-   ```bash
-    npx expo start
-   ```
+- **React Native** with Expo
+- **JavaScript**
+- **React Navigation**
+- **Styled Components** (optional for styling)
+- **Victory Native** (planned) – for BMI chart visualization
 
-In the output, you'll find options to open the app in a
+## 🚀 Getting Started
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
+### 1. Clone the repo
 ```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+git clone https://github.com/your-username/healthy-weight-analyzer.git
+cd healthy-weight-analyzer
